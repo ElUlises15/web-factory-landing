@@ -1,0 +1,57 @@
+[
+  {
+    "id": "basica",
+    "name": "Básica",
+    "subtitle": "Landing",
+    "price": 150000,
+    "priceLabel": "$150.000",
+    "maintenance": 30000,
+    "maintenanceLabel": "$30.000/mes",
+    "days": "5–7 días hábiles",
+    "featured": false,
+    "includes": [
+      "Una página",
+      "Botón a WhatsApp",
+      "SEO básico",
+      "1 ronda de cambios"
+    ],
+    "waText": "Hola, me interesa la web Básica"
+  },
+  {
+    "id": "intermedia",
+    "name": "Intermedia",
+    "subtitle": "Hasta 5 secciones",
+    "price": 280000,
+    "priceLabel": "$280.000",
+    "maintenance": 45000,
+    "maintenanceLabel": "$45.000/mes",
+    "days": "10–14 días hábiles",
+    "featured": true,
+    "badge": "La más elegida",
+    "includes": [
+      "Hasta 5 secciones",
+      "Galería o FAQ",
+      "SEO por página",
+      "2 rondas de cambios"
+    ],
+    "waText": "Hola, me interesa la web Intermedia"
+  },
+  {
+    "id": "completa",
+    "name": "Completa",
+    "subtitle": "8 a 10 secciones",
+    "price": 450000,
+    "priceLabel": "$450.000",
+    "maintenance": 60000,
+    "maintenanceLabel": "$60.000/mes",
+    "days": "15–21 días hábiles",
+    "featured": false,
+    "includes": [
+      "8 a 10 secciones",
+      "Formularios y testimonios",
+      "Schema / SEO avanzado",
+      "3 rondas de cambios"
+    ],
+    "waText": "Hola, me interesa la web Completa"
+  }
+]

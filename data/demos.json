@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "casa-de-pastas-ey",
+    "name": "Casa de Pastas EY",
+    "rubro": "Gastronomía",
+    "url": "https://elulises15.github.io/demos-clientes/casa-de-pastas-ey/",
+    "image": "img/demos/casa-de-pastas-ey.webp"
+  },
+  {
+    "slug": "swagg-barber",
+    "name": "Swagg Barber",
+    "rubro": "Barbería",
+    "url": "https://elulises15.github.io/demos-clientes/swagg-barber/",
+    "image": "img/demos/swagg-barber.webp"
+  },
+  {
+    "slug": "jesi-estudio-fitness",
+    "name": "Jesi Estudio Fitness",
+    "rubro": "Gimnasio",
+    "url": "https://elulises15.github.io/demos-clientes/jesi-estudio-fitness/",
+    "image": "img/demos/jesi-estudio-fitness.webp"
+  },
+  {
+    "slug": "consul-vet",
+    "name": "Consul Vet",
+    "rubro": "Veterinaria",
+    "url": "https://elulises15.github.io/demos-clientes/consul-vet/",
+    "image": "img/demos/consul-vet.webp"
+  },
+  {
+    "slug": "hospital-veterinario-del-sur",
+    "name": "Hospital Veterinario del Sur",
+    "rubro": "Veterinaria",
+    "url": "https://elulises15.github.io/demos-clientes/hospital-veterinario-del-sur/",
+    "image": "img/demos/hospital-veterinario-del-sur.webp"
+  },
+  {
+    "slug": "churi",
+    "name": "Churi",
+    "rubro": "Indumentaria",
+    "url": "https://elulises15.github.io/demos-clientes/churi/",
+    "image": "img/demos/churi.webp"
+  }
+]
