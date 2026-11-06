@@ -4,69 +4,233 @@
     "name": "Apes Peluquería",
     "rubro": "Peluquería",
     "url": "https://apes-peluqueria.pages.dev/",
-    "image": "img/demos/apes-peluqueria.webp"
+    "image": "img/demos/apes-peluqueria.webp",
+    "category": "Clientes",
+    "tag": "Demo"
   },
   {
     "slug": "printfactory3d",
     "name": "PrintFactory 3D",
     "rubro": "Impresión 3D",
     "url": "https://printfactory3d.pages.dev/",
-    "image": "img/demos/printfactory3d.webp"
+    "image": "img/demos/printfactory3d.webp",
+    "category": "Clientes",
+    "tag": "Demo"
   },
   {
     "slug": "complejo-aylen-kit-demo",
     "name": "Complejo Aylen",
     "rubro": "Canchas de fútbol",
     "url": "https://elulises15.github.io/demos-clientes/complejo-aylen-kit-demo/",
-    "image": "img/demos/complejo-aylen.webp"
+    "image": "img/demos/complejo-aylen.webp",
+    "category": "Clientes",
+    "tag": "Demo"
   },
   {
     "slug": "el-origen-eventos-kit-demo",
     "name": "El Origen Eventos",
     "rubro": "Salón de eventos",
     "url": "https://elulises15.github.io/demos-clientes/el-origen-eventos-kit-demo/",
-    "image": "img/demos/el-origen-eventos.webp"
+    "image": "img/demos/el-origen-eventos.webp",
+    "category": "Clientes",
+    "tag": "Demo"
   },
   {
     "slug": "casa-de-pastas-ey",
     "name": "Casa de Pastas E&Y",
     "rubro": "Gastronomía",
     "url": "https://elulises15.github.io/demos-clientes/casa-de-pastas-ey/",
-    "image": "img/demos/casa-de-pastas-ey.webp"
+    "image": "img/demos/casa-de-pastas-ey.webp",
+    "category": "Clientes",
+    "tag": "Demo"
   },
   {
     "slug": "swagg-barber",
     "name": "Swagg Barber",
     "rubro": "Barbería",
     "url": "https://elulises15.github.io/demos-clientes/swagg-barber/",
-    "image": "img/demos/swagg-barber.webp"
+    "image": "img/demos/swagg-barber.webp",
+    "category": "Clientes",
+    "tag": "Demo"
   },
   {
     "slug": "jesi-estudio-fitness",
     "name": "Jesi Estudio Fitness",
     "rubro": "Gimnasio",
     "url": "https://elulises15.github.io/demos-clientes/jesi-estudio-fitness/",
-    "image": "img/demos/jesi-estudio-fitness.webp"
+    "image": "img/demos/jesi-estudio-fitness.webp",
+    "category": "Clientes",
+    "tag": "Demo"
   },
   {
     "slug": "consul-vet",
     "name": "Consul Vet",
     "rubro": "Veterinaria",
     "url": "https://elulises15.github.io/demos-clientes/consul-vet/",
-    "image": "img/demos/consul-vet.webp"
+    "image": "img/demos/consul-vet.webp",
+    "category": "Clientes",
+    "tag": "Demo"
   },
   {
     "slug": "hospital-veterinario-del-sur",
     "name": "Hospital Veterinario del Sur",
     "rubro": "Veterinaria",
     "url": "https://elulises15.github.io/demos-clientes/hospital-veterinario-del-sur/",
-    "image": "img/demos/hospital-veterinario-del-sur.webp"
+    "image": "img/demos/hospital-veterinario-del-sur.webp",
+    "category": "Clientes",
+    "tag": "Demo"
   },
   {
     "slug": "churi",
     "name": "Churi",
     "rubro": "Indumentaria",
     "url": "https://elulises15.github.io/demos-clientes/churi/",
-    "image": "img/demos/churi.webp"
+    "image": "img/demos/churi.webp",
+    "category": "Clientes",
+    "tag": "Demo"
+  },
+  {
+    "slug": "cafe-luna",
+    "name": "Café Luna",
+    "rubro": "Café de especialidad en Villa Crespo. Un rincón para bajar un cambio.",
+    "category": "Landings",
+    "tag": "Landings",
+    "url": "https://elulises15.github.io/cafe-luna/",
+    "image": "img/demos/cafe-luna.webp"
+  },
+  {
+    "slug": "taller-cadena",
+    "name": "Taller Cadena",
+    "rubro": "Taller de bicis en San Telmo: reparaciones, puesta a punto y usadas.",
+    "category": "Landings",
+    "tag": "Landings",
+    "url": "https://elulises15.github.io/taller-cadena/",
+    "image": "img/demos/taller-cadena.webp"
+  },
+  {
+    "slug": "floreria-petalos",
+    "name": "Florería Pétalos",
+    "rubro": "Flores de estación y ramos con aire de barrio, en Palermo Soho.",
+    "category": "Landings",
+    "tag": "Landings",
+    "url": "https://elulises15.github.io/floreria-petalos/",
+    "image": "img/demos/floreria-petalos.webp"
+  },
+  {
+    "slug": "estudio-vinilo",
+    "name": "Estudio Vinilo",
+    "rubro": "Ensayo y grabación analógica en Almagro.",
+    "category": "Landings",
+    "tag": "Landings",
+    "url": "https://elulises15.github.io/estudio-vinilo/",
+    "image": "img/demos/estudio-vinilo.webp"
+  },
+  {
+    "slug": "panaderia-hogaza",
+    "name": "Hogaza",
+    "rubro": "Pan de masa madre, corteza y tiempo. Panadería en Colegiales.",
+    "category": "Landings",
+    "tag": "Landings",
+    "url": "https://elulises15.github.io/panaderia-hogaza/",
+    "image": "img/demos/panaderia-hogaza.webp"
+  },
+  {
+    "slug": "barberia-bruma",
+    "name": "Barbería Bruma",
+    "rubro": "Cortes clásicos, fades y barba en Villa Urquiza.",
+    "category": "Multipágina",
+    "tag": "Multipágina",
+    "url": "https://elulises15.github.io/barberia-bruma/",
+    "image": "img/demos/barberia-bruma.webp"
+  },
+  {
+    "slug": "vet-patitas",
+    "name": "Patitas del Sur",
+    "rubro": "Veterinaria cercana para perros y gatos en Lanús Oeste.",
+    "category": "Multipágina",
+    "tag": "Multipágina",
+    "url": "https://elulises15.github.io/vet-patitas/",
+    "image": "img/demos/vet-patitas.webp"
+  },
+  {
+    "slug": "gym-hierro",
+    "name": "Hierro",
+    "rubro": "Gimnasio de barrio en Avellaneda: fuerza y comunidad.",
+    "category": "Multipágina",
+    "tag": "Multipágina",
+    "url": "https://elulises15.github.io/gym-hierro/",
+    "image": "img/demos/gym-hierro.webp"
+  },
+  {
+    "slug": "casa-fuego",
+    "name": "Casa Fuego",
+    "rubro": "Parrilla a leña en San Isidro. Carta, patio y reservas.",
+    "category": "Multipágina",
+    "tag": "Multipágina",
+    "url": "https://elulises15.github.io/casa-fuego/",
+    "image": "img/demos/casa-fuego.webp"
+  },
+  {
+    "slug": "salon-aurora",
+    "name": "Salón Aurora",
+    "rubro": "Cumpleaños y quince en Sourigues, zona sur GBA.",
+    "category": "Multipágina",
+    "tag": "Multipágina",
+    "url": "https://elulises15.github.io/salon-aurora/",
+    "image": "img/demos/salon-aurora.webp"
+  },
+  {
+    "slug": "mercadolocal",
+    "name": "TodoHierro",
+    "rubro": "Ecommerce de ferretería con stock (mock en Pages).",
+    "category": "Webapps",
+    "tag": "Webapp",
+    "url": "https://elulises15.github.io/mercadolocal/",
+    "image": "img/demos/mercadolocal.webp"
+  },
+  {
+    "slug": "turnos-dental",
+    "name": "Sonrisa Clara",
+    "rubro": "Agenda de turnos odontológicos (mock en Pages).",
+    "category": "Webapps",
+    "tag": "Webapp",
+    "url": "https://elulises15.github.io/turnos-dental/",
+    "image": "img/demos/turnos-dental.webp"
+  },
+  {
+    "slug": "vozclara",
+    "name": "VozClara",
+    "rubro": "Texto a voz, a tu ritmo (tipo Speechify).",
+    "category": "Webapps",
+    "tag": "Webapp",
+    "url": "https://elulises15.github.io/vozclara/",
+    "image": "img/demos/vozclara.webp"
+  },
+  {
+    "slug": "club-cancha",
+    "name": "Cancha Norte",
+    "rubro": "Reservas de cancha para el próximo partido.",
+    "category": "Webapps",
+    "tag": "Webapp",
+    "url": "https://elulises15.github.io/club-cancha/",
+    "image": "img/demos/club-cancha.webp"
+  },
+  {
+    "slug": "cocina-carta",
+    "name": "Lo de Mabel",
+    "rubro": "Carta casera y pedidos desde la mesa.",
+    "category": "Webapps",
+    "tag": "Webapp",
+    "url": "https://elulises15.github.io/cocina-carta/",
+    "image": "img/demos/cocina-carta.webp"
+  },
+  {
+    "slug": "rpg-ligero",
+    "name": "Mate & Magia",
+    "rubro": "RPG web pampeano: un poquito de magia, un montón de pampa.",
+    "category": "Bonus",
+    "tag": "Bonus",
+    "url": "https://elulises15.github.io/rpg-ligero/",
+    "image": "img/demos/rpg-ligero.webp"
   }
 ]
