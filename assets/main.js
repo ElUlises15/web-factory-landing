@@ -23,6 +23,22 @@
   addEventListener('scroll', updateHeader, { passive: true });
   updateHeader();
 
+  if ('IntersectionObserver' in window) {
+    document.documentElement.classList.add('js');
+    const revealer = new IntersectionObserver((entries, io) => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('is-in');
+        io.unobserve(entry.target);
+      });
+    }, { rootMargin: '0px 0px -8% 0px' });
+    document.querySelectorAll('[data-reveal]').forEach(el => revealer.observe(el));
+
+    const float = $('.wa-float');
+    new IntersectionObserver(([entry]) => float.classList.toggle('is-away', entry.isIntersecting))
+      .observe($('.hero'));
+  }
+
   const error = message => {
     const el = $('#load-error');
     if (!el) return;
