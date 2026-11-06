@@ -43,8 +43,10 @@ for (const demo of data) {
   assert.ok(readFileSync(root + demo.image).length > 0, 'Missing thumbnail');
 }
 assert.match(readFileSync(root + 'robots.txt', 'utf8'), /Allow: \/\s/);
-assert.ok(html.includes('complejo-aylen-kit-demo/'));
-assert.ok(html.includes('el-origen-eventos-kit-demo/'));
+assert.ok(html.includes('https://complejoaylen.com.ar/'));
+assert.ok(!html.includes('https://elulises15.github.io/demos-clientes/complejo-aylen-kit-demo/'));
+assert.ok(html.includes('https://elorigeneventos.com.ar/'));
+assert.ok(!html.includes('https://elulises15.github.io/demos-clientes/el-origen-eventos-kit-demo/'));
 assert.ok(!html.includes('Demo Ulises testing'));
 assert.match(html, /class="demo-filters"[^>]*hidden>/, 'Filters hidden until enhanced');
-console.log('PASS: 26 static cards, real plan prices, all filters/category collapse, aria states, IDs, assets, kit URLs, robots, offline fallback.');
+console.log('PASS: 26 static cards, real plan prices, all filters/category collapse, aria states, IDs, assets, production URLs, robots, offline fallback.');
