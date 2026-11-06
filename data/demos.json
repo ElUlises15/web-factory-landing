@@ -7,25 +7,25 @@
     "image": "img/demos/apes-peluqueria.webp"
   },
   {
-    "slug": "complejo-aylen",
-    "name": "Complejo Aylen",
-    "rubro": "Canchas de fútbol",
-    "url": "https://complejo-aylen.pages.dev/",
-    "image": "img/demos/complejo-aylen.webp"
-  },
-  {
-    "slug": "el-origen-eventos",
-    "name": "El Origen Eventos",
-    "rubro": "Salón de eventos",
-    "url": "https://el-origen-eventos.pages.dev/",
-    "image": "img/demos/el-origen-eventos.webp"
-  },
-  {
     "slug": "printfactory3d",
     "name": "PrintFactory 3D",
     "rubro": "Impresión 3D",
     "url": "https://printfactory3d.pages.dev/",
     "image": "img/demos/printfactory3d.webp"
+  },
+  {
+    "slug": "complejo-aylen-kit-demo",
+    "name": "Complejo Aylen",
+    "rubro": "Canchas de fútbol",
+    "url": "https://elulises15.github.io/demos-clientes/complejo-aylen-kit-demo/",
+    "image": "img/demos/complejo-aylen.webp"
+  },
+  {
+    "slug": "el-origen-eventos-kit-demo",
+    "name": "El Origen Eventos",
+    "rubro": "Salón de eventos",
+    "url": "https://elulises15.github.io/demos-clientes/el-origen-eventos-kit-demo/",
+    "image": "img/demos/el-origen-eventos.webp"
   },
   {
     "slug": "casa-de-pastas-ey",
