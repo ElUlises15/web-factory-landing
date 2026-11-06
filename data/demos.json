@@ -6,7 +6,11 @@
     "url": "https://apes-peluqueria.pages.dev/",
     "image": "img/demos/apes-peluqueria.webp",
     "category": "Clientes",
-    "tag": "Demo"
+    "tag": "Demo",
+    "plan": "Intermedia",
+    "priceSetup": 280000,
+    "priceMaint": 45000,
+    "description": "Peluquería · Quilmes. Una demo pensada para que te reserven turno por WhatsApp."
   },
   {
     "slug": "printfactory3d",
@@ -15,7 +19,10 @@
     "url": "https://printfactory3d.pages.dev/",
     "image": "img/demos/printfactory3d.webp",
     "category": "Clientes",
-    "tag": "Demo"
+    "tag": "Demo",
+    "plan": "Intermedia",
+    "priceSetup": 280000,
+    "priceMaint": 45000
   },
   {
     "slug": "complejo-aylen-kit-demo",
@@ -24,7 +31,10 @@
     "url": "https://elulises15.github.io/demos-clientes/complejo-aylen-kit-demo/",
     "image": "img/demos/complejo-aylen.webp",
     "category": "Clientes",
-    "tag": "Demo"
+    "tag": "Demo",
+    "plan": "Intermedia",
+    "priceSetup": 280000,
+    "priceMaint": 45000
   },
   {
     "slug": "el-origen-eventos-kit-demo",
@@ -33,7 +43,10 @@
     "url": "https://elulises15.github.io/demos-clientes/el-origen-eventos-kit-demo/",
     "image": "img/demos/el-origen-eventos.webp",
     "category": "Clientes",
-    "tag": "Demo"
+    "tag": "Demo",
+    "plan": "Intermedia",
+    "priceSetup": 280000,
+    "priceMaint": 45000
   },
   {
     "slug": "casa-de-pastas-ey",
@@ -42,7 +55,10 @@
     "url": "https://elulises15.github.io/demos-clientes/casa-de-pastas-ey/",
     "image": "img/demos/casa-de-pastas-ey.webp",
     "category": "Clientes",
-    "tag": "Demo"
+    "tag": "Demo",
+    "plan": "Intermedia",
+    "priceSetup": 280000,
+    "priceMaint": 45000
   },
   {
     "slug": "swagg-barber",
@@ -51,7 +67,10 @@
     "url": "https://elulises15.github.io/demos-clientes/swagg-barber/",
     "image": "img/demos/swagg-barber.webp",
     "category": "Clientes",
-    "tag": "Demo"
+    "tag": "Demo",
+    "plan": "Intermedia",
+    "priceSetup": 280000,
+    "priceMaint": 45000
   },
   {
     "slug": "jesi-estudio-fitness",
@@ -60,7 +79,10 @@
     "url": "https://elulises15.github.io/demos-clientes/jesi-estudio-fitness/",
     "image": "img/demos/jesi-estudio-fitness.webp",
     "category": "Clientes",
-    "tag": "Demo"
+    "tag": "Demo",
+    "plan": "Intermedia",
+    "priceSetup": 280000,
+    "priceMaint": 45000
   },
   {
     "slug": "consul-vet",
@@ -69,7 +91,10 @@
     "url": "https://elulises15.github.io/demos-clientes/consul-vet/",
     "image": "img/demos/consul-vet.webp",
     "category": "Clientes",
-    "tag": "Demo"
+    "tag": "Demo",
+    "plan": "Intermedia",
+    "priceSetup": 280000,
+    "priceMaint": 45000
   },
   {
     "slug": "hospital-veterinario-del-sur",
@@ -78,7 +103,10 @@
     "url": "https://elulises15.github.io/demos-clientes/hospital-veterinario-del-sur/",
     "image": "img/demos/hospital-veterinario-del-sur.webp",
     "category": "Clientes",
-    "tag": "Demo"
+    "tag": "Demo",
+    "plan": "Intermedia",
+    "priceSetup": 280000,
+    "priceMaint": 45000
   },
   {
     "slug": "churi",
@@ -87,7 +115,10 @@
     "url": "https://elulises15.github.io/demos-clientes/churi/",
     "image": "img/demos/churi.webp",
     "category": "Clientes",
-    "tag": "Demo"
+    "tag": "Demo",
+    "plan": "Intermedia",
+    "priceSetup": 280000,
+    "priceMaint": 45000
   },
   {
     "slug": "cafe-luna",
@@ -96,7 +127,10 @@
     "category": "Landings",
     "tag": "Landings",
     "url": "https://elulises15.github.io/cafe-luna/",
-    "image": "img/demos/cafe-luna.webp"
+    "image": "img/demos/cafe-luna.webp",
+    "plan": "Básica",
+    "priceSetup": 150000,
+    "priceMaint": 30000
   },
   {
     "slug": "taller-cadena",
@@ -105,7 +139,10 @@
     "category": "Landings",
     "tag": "Landings",
     "url": "https://elulises15.github.io/taller-cadena/",
-    "image": "img/demos/taller-cadena.webp"
+    "image": "img/demos/taller-cadena.webp",
+    "plan": "Básica",
+    "priceSetup": 150000,
+    "priceMaint": 30000
   },
   {
     "slug": "floreria-petalos",
@@ -114,7 +151,10 @@
     "category": "Landings",
     "tag": "Landings",
     "url": "https://elulises15.github.io/floreria-petalos/",
-    "image": "img/demos/floreria-petalos.webp"
+    "image": "img/demos/floreria-petalos.webp",
+    "plan": "Básica",
+    "priceSetup": 150000,
+    "priceMaint": 30000
   },
   {
     "slug": "estudio-vinilo",
@@ -123,7 +163,10 @@
     "category": "Landings",
     "tag": "Landings",
     "url": "https://elulises15.github.io/estudio-vinilo/",
-    "image": "img/demos/estudio-vinilo.webp"
+    "image": "img/demos/estudio-vinilo.webp",
+    "plan": "Básica",
+    "priceSetup": 150000,
+    "priceMaint": 30000
   },
   {
     "slug": "panaderia-hogaza",
@@ -132,7 +175,10 @@
     "category": "Landings",
     "tag": "Landings",
     "url": "https://elulises15.github.io/panaderia-hogaza/",
-    "image": "img/demos/panaderia-hogaza.webp"
+    "image": "img/demos/panaderia-hogaza.webp",
+    "plan": "Básica",
+    "priceSetup": 150000,
+    "priceMaint": 30000
   },
   {
     "slug": "barberia-bruma",
@@ -141,7 +187,10 @@
     "category": "Multipágina",
     "tag": "Multipágina",
     "url": "https://elulises15.github.io/barberia-bruma/",
-    "image": "img/demos/barberia-bruma.webp"
+    "image": "img/demos/barberia-bruma.webp",
+    "plan": "Intermedia",
+    "priceSetup": 280000,
+    "priceMaint": 45000
   },
   {
     "slug": "vet-patitas",
@@ -150,7 +199,10 @@
     "category": "Multipágina",
     "tag": "Multipágina",
     "url": "https://elulises15.github.io/vet-patitas/",
-    "image": "img/demos/vet-patitas.webp"
+    "image": "img/demos/vet-patitas.webp",
+    "plan": "Intermedia",
+    "priceSetup": 280000,
+    "priceMaint": 45000
   },
   {
     "slug": "gym-hierro",
@@ -159,7 +211,10 @@
     "category": "Multipágina",
     "tag": "Multipágina",
     "url": "https://elulises15.github.io/gym-hierro/",
-    "image": "img/demos/gym-hierro.webp"
+    "image": "img/demos/gym-hierro.webp",
+    "plan": "Intermedia",
+    "priceSetup": 280000,
+    "priceMaint": 45000
   },
   {
     "slug": "casa-fuego",
@@ -168,7 +223,10 @@
     "category": "Multipágina",
     "tag": "Multipágina",
     "url": "https://elulises15.github.io/casa-fuego/",
-    "image": "img/demos/casa-fuego.webp"
+    "image": "img/demos/casa-fuego.webp",
+    "plan": "Intermedia",
+    "priceSetup": 280000,
+    "priceMaint": 45000
   },
   {
     "slug": "salon-aurora",
@@ -177,7 +235,10 @@
     "category": "Multipágina",
     "tag": "Multipágina",
     "url": "https://elulises15.github.io/salon-aurora/",
-    "image": "img/demos/salon-aurora.webp"
+    "image": "img/demos/salon-aurora.webp",
+    "plan": "Intermedia",
+    "priceSetup": 280000,
+    "priceMaint": 45000
   },
   {
     "slug": "mercadolocal",
@@ -186,7 +247,10 @@
     "category": "Webapps",
     "tag": "Webapp",
     "url": "https://elulises15.github.io/mercadolocal/",
-    "image": "img/demos/mercadolocal.webp"
+    "image": "img/demos/mercadolocal.webp",
+    "plan": "Completa",
+    "priceSetup": 450000,
+    "priceMaint": 60000
   },
   {
     "slug": "turnos-dental",
@@ -195,7 +259,10 @@
     "category": "Webapps",
     "tag": "Webapp",
     "url": "https://elulises15.github.io/turnos-dental/",
-    "image": "img/demos/turnos-dental.webp"
+    "image": "img/demos/turnos-dental.webp",
+    "plan": "Completa",
+    "priceSetup": 450000,
+    "priceMaint": 60000
   },
   {
     "slug": "vozclara",
@@ -204,7 +271,10 @@
     "category": "Webapps",
     "tag": "Webapp",
     "url": "https://elulises15.github.io/vozclara/",
-    "image": "img/demos/vozclara.webp"
+    "image": "img/demos/vozclara.webp",
+    "plan": "Completa",
+    "priceSetup": 450000,
+    "priceMaint": 60000
   },
   {
     "slug": "club-cancha",
@@ -213,7 +283,10 @@
     "category": "Webapps",
     "tag": "Webapp",
     "url": "https://elulises15.github.io/club-cancha/",
-    "image": "img/demos/club-cancha.webp"
+    "image": "img/demos/club-cancha.webp",
+    "plan": "Completa",
+    "priceSetup": 450000,
+    "priceMaint": 60000
   },
   {
     "slug": "cocina-carta",
@@ -222,7 +295,10 @@
     "category": "Webapps",
     "tag": "Webapp",
     "url": "https://elulises15.github.io/cocina-carta/",
-    "image": "img/demos/cocina-carta.webp"
+    "image": "img/demos/cocina-carta.webp",
+    "plan": "Completa",
+    "priceSetup": 450000,
+    "priceMaint": 60000
   },
   {
     "slug": "rpg-ligero",
@@ -231,6 +307,9 @@
     "category": "Bonus",
     "tag": "Bonus",
     "url": "https://elulises15.github.io/rpg-ligero/",
-    "image": "img/demos/rpg-ligero.webp"
+    "image": "img/demos/rpg-ligero.webp",
+    "plan": "Completa",
+    "priceSetup": 450000,
+    "priceMaint": 60000
   }
 ]

@@ -39,6 +39,29 @@
       .observe($('.hero'));
   }
 
+  // Enhance the static gallery. Without JS every demo and price stays visible.
+  const filters = $('.demo-filters');
+  if (filters) {
+    const cards = [...document.querySelectorAll('#demos .demo-card')];
+    const categories = [...document.querySelectorAll('#demos .demo-cat')];
+    const buttons = [...filters.querySelectorAll('[data-filter]')];
+    const results = $('.demo-results');
+    filters.hidden = false;
+    filters.addEventListener('click', event => {
+      const button = event.target.closest('[data-filter]');
+      if (!button || !filters.contains(button)) return;
+      const plan = button.dataset.filter;
+      buttons.forEach(chip => chip.setAttribute('aria-pressed', String(chip === button)));
+      cards.forEach(card => { card.hidden = plan !== 'todas' && card.dataset.plan !== plan; });
+      categories.forEach(category => {
+        category.hidden = ![...category.querySelectorAll('.demo-card')].some(card => !card.hidden);
+      });
+      const count = cards.filter(card => !card.hidden).length;
+      const label = { todas: 'todos los planes', basica: 'plan Básica', intermedia: 'plan Intermedia', completa: 'plan Completa' }[plan];
+      results.textContent = `${count} ${count === 1 ? 'demo' : 'demos'} · ${label}`;
+    });
+  }
+
   const error = message => {
     const el = $('#load-error');
     if (!el) return;
