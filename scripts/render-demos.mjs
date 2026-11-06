@@ -9,8 +9,8 @@ const plans = {
   'Intermedia': { id: 'intermedia', setup: 280000, maint: 45000 },
   'Completa': { id: 'completa', setup: 450000, maint: 60000 }
 };
-const categories = ['Clientes', 'Landings', 'Multipágina', 'Webapps', 'Bonus'];
-const categoryPlan = { Clientes: 'Intermedia', Landings: 'Básica', Multipágina: 'Intermedia', Webapps: 'Completa', Bonus: 'Completa' };
+const categories = ['Clientes', 'Demos', 'Landings', 'Multipágina', 'Webapps', 'Bonus'];
+const categoryPlan = { Clientes: 'Intermedia', Demos: 'Intermedia', Landings: 'Básica', Multipágina: 'Intermedia', Webapps: 'Completa', Bonus: 'Completa' };
 const escape = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 const pesos = n => '$' + new Intl.NumberFormat('es-AR').format(n);
 const counts = Object.fromEntries(Object.keys(plans).map(p => [p, demos.filter(d => d.plan === p).length]));
@@ -43,7 +43,7 @@ ${Object.entries(plans).map(([name, p]) => `      <button type="button" class="p
     <p class="demo-results" role="status" aria-live="polite" aria-atomic="true">${demos.length} demos · todos los planes</p>
   </div>
 ${categories.map((c, i) => `  <section class="demo-cat" aria-labelledby="demo-category-${i}">
-    <div class="demo-cat-heading"><h3 class="demo-cat-title" id="demo-category-${i}">${c === 'Clientes' ? 'Negocios de la zona' : c}</h3><p>${({ Clientes: 'Propuestas con identidad propia.', Landings: 'Una página, lo importante a mano.', 'Multipágina': 'Más lugar para contar lo que hacés.', Webapps: 'Herramientas para probar, no solo para mirar.', Bonus: 'Una muestra de lo que se puede hacer jugando.' })[c]}</p></div>
+    <div class="demo-cat-heading"><h3 class="demo-cat-title" id="demo-category-${i}">${c}</h3><p>${({ Clientes: 'Webs ya publicadas para negocios reales.', Demos: 'Propuestas de ejemplo para otros rubros.', Landings: 'Una página, lo importante a mano.', 'Multipágina': 'Más lugar para contar lo que hacés.', Webapps: 'Herramientas para probar, no solo para mirar.', Bonus: 'Una muestra de lo que se puede hacer jugando.' })[c]}</p></div>
     <div class="demo-grid${c === 'Clientes' ? '" id="demo-grid' : ' demo-grid--cat'}">
 ${demos.filter(d => d.category === c).map((d, index) => card(d, c === 'Clientes' && index === 0)).join('\n')}
     </div>

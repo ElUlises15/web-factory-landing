@@ -22,7 +22,7 @@ const context = {
 vm.runInNewContext(readFileSync(root + 'assets/main.js', 'utf8'), context);
 assert.equal(cards.length, 26);
 assert.equal(filters.hidden, false);
-for (const [plan, count, groups] of [['basica', 7, 2], ['intermedia', 13, 2], ['completa', 6, 2], ['todas', 26, 5]]) {
+for (const [plan, count, groups] of [['basica', 7, 2], ['intermedia', 13, 3], ['completa', 6, 2], ['todas', 26, 6]]) {
   const button = buttons.find(b => b.dataset.filter === plan);
   filters.click({ target: { closest: () => button } }); // Also models clicking a count span.
   assert.equal(cards.filter(c => !c.hidden).length, count);
