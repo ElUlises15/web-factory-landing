@@ -48,5 +48,18 @@ assert.ok(!html.includes('https://elulises15.github.io/demos-clientes/complejo-a
 assert.ok(html.includes('https://elorigeneventos.com.ar/'));
 assert.ok(!html.includes('https://elulises15.github.io/demos-clientes/el-origen-eventos-kit-demo/'));
 assert.ok(!html.includes('Demo Ulises testing'));
+for (const demo of data.filter(d => d.category === 'Clientes')) {
+  const match = html.match(new RegExp(`<article[^>]*data-demo="${demo.slug}">([\\s\\S]*?)<\\/article>`));
+  assert.ok(match, 'client card: ' + demo.slug);
+  assert.match(match[1], />Ver web </, 'Client CTA must be Ver web: ' + demo.slug);
+  assert.ok(!match[1].includes('>Ver demo <'), 'Client must not say Ver demo: ' + demo.slug);
+  assert.ok(!/#/.test(demo.url), 'Client URL must open at top: ' + demo.slug);
+}
+for (const demo of data.filter(d => d.category !== 'Clientes')) {
+  const match = html.match(new RegExp(`<article[^>]*data-demo="${demo.slug}">([\\s\\S]*?)<\\/article>`));
+  assert.ok(match, 'demo card: ' + demo.slug);
+  assert.match(match[1], />Ver demo </, 'Non-client CTA stays Ver demo: ' + demo.slug);
+}
+
 assert.match(html, /class="demo-filters"[^>]*hidden>/, 'Filters hidden until enhanced');
 console.log('PASS: 26 static cards, real plan prices, all filters/category collapse, aria states, IDs, assets, production URLs, robots, offline fallback.');

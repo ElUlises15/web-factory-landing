@@ -23,15 +23,22 @@ for (const d of demos) {
   slugs.add(d.slug);
   if (!d.url.startsWith('https://')) throw new Error('Invalid URL: ' + d.slug);
 }
-const card = (d, featured) => `      <article class="demo-card${featured ? ' featured-demo' : ''}" data-plan="${plans[d.plan].id}" data-demo="${escape(d.slug)}">
-        <div class="demo-image"><span class="demo-tag">${escape(d.tag)}</span><img src="${escape(d.image)}?v=${d.category === 'Clientes' ? 2 : 1}" alt="Portada de la demo de ${escape(d.name)}" width="960" height="600" loading="lazy" decoding="async"></div>
+const ctaLabel = d => d.category === 'Clientes' ? 'Ver web' : 'Ver demo';
+const card = (d, featured) => {
+  const cta = ctaLabel(d);
+  const alt = d.category === 'Clientes'
+    ? `Vista inicial de la web de ${escape(d.name)}`
+    : `Vista inicial de la demo de ${escape(d.name)}`;
+  return `      <article class="demo-card${featured ? ' featured-demo' : ''}" data-plan="${plans[d.plan].id}" data-demo="${escape(d.slug)}">
+        <div class="demo-image"><span class="demo-tag">${escape(d.tag)}</span><img src="${escape(d.image)}?v=3" alt="${alt}" width="1280" height="800" loading="lazy" decoding="async"></div>
         <div class="demo-info">
           <h4>${escape(d.name)}</h4>
           <p>${escape(d.description || d.rubro)}</p>
           <div class="demo-plan"><span class="plan-badge plan-badge--${plans[d.plan].id}">${escape(d.plan)}</span><span class="demo-setup">${pesos(d.priceSetup)} <small>de armado</small></span><span class="demo-maint">+ ${pesos(d.priceMaint)}/mes de mantenimiento</span></div>
-          <a href="${escape(d.url)}" target="_blank" rel="noopener" aria-label="Ver demo de ${escape(d.name)} (abre en otra pestaña)">Ver demo <span aria-hidden="true">↗</span></a>
+          <a href="${escape(d.url)}" target="_blank" rel="noopener" aria-label="${cta} de ${escape(d.name)} (abre en otra pestaña)">${cta} <span aria-hidden="true">↗</span></a>
         </div>
       </article>`;
+};
 const html = `<section class="section demos-section" id="demos" aria-labelledby="demos-title"><div class="wrap">
   <div class="section-heading split" data-reveal><h2 id="demos-title">Así puede verse tu negocio.</h2><p>Landings, sitios multipágina y webapps de muestra. Algunas son propuestas para negocios de la zona; otras, ejemplos de rubro. Son demos con imágenes ilustrativas, no las webs oficiales.</p></div>
   <div class="demo-toolbar">
