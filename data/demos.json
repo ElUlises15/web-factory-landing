@@ -1,5 +1,12 @@
 [
   {
+    "slug": "apes-peluqueria",
+    "name": "Apes Peluquería",
+    "rubro": "Peluquería",
+    "url": "https://apes-peluqueria.pages.dev/",
+    "image": "img/demos/apes-peluqueria.webp"
+  },
+  {
     "slug": "casa-de-pastas-ey",
     "name": "Casa de Pastas EY",
     "rubro": "Gastronomía",

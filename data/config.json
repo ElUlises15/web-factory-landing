@@ -3,7 +3,7 @@
   "waDisplay": "+54 9 11 5981-8942",
   "instagram": "#",
   "instagramTodo": true,
-  "noindex": true,
+  "noindex": false,
   "canonical": "https://web-factory-hjs.pages.dev/",
   "brand": "Web Factory",
   "tagline": "Webs rápidas para negocios de zona sur",
