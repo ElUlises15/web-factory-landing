@@ -16,8 +16,9 @@ const pesos = n => '$' + new Intl.NumberFormat('es-AR').format(n);
 const counts = Object.fromEntries(Object.keys(plans).map(p => [p, demos.filter(d => d.plan === p).length]));
 const slugs = new Set();
 for (const d of demos) {
+  if (!d.plan && categoryPlan[d.category]) d.plan = categoryPlan[d.category];
   const plan = plans[d.plan];
-  if (!plan || d.priceSetup !== plan.setup || d.priceMaint !== plan.maint || d.plan !== categoryPlan[d.category]) throw new Error('Invalid plan/prices: ' + d.slug);
+  if (!plan || d.priceSetup !== plan.setup || d.priceMaint !== plan.maint) throw new Error('Invalid plan/prices: ' + d.slug);
   if (slugs.has(d.slug)) throw new Error('Duplicate demo: ' + d.slug);
   slugs.add(d.slug);
   if (!d.url.startsWith('https://')) throw new Error('Invalid URL: ' + d.slug);

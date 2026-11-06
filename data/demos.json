@@ -32,9 +32,9 @@
     "image": "img/demos/complejo-aylen.webp",
     "category": "Clientes",
     "tag": "Demo",
-    "plan": "Intermedia",
-    "priceSetup": 280000,
-    "priceMaint": 45000
+    "plan": "Básica",
+    "priceSetup": 150000,
+    "priceMaint": 30000
   },
   {
     "slug": "el-origen-eventos-kit-demo",
@@ -44,9 +44,9 @@
     "image": "img/demos/el-origen-eventos.webp",
     "category": "Clientes",
     "tag": "Demo",
-    "plan": "Intermedia",
-    "priceSetup": 280000,
-    "priceMaint": 45000
+    "plan": "Básica",
+    "priceSetup": 150000,
+    "priceMaint": 30000
   },
   {
     "slug": "casa-de-pastas-ey",
